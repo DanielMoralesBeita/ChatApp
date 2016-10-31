@@ -19,6 +19,9 @@ textarea {
 html {
   font-size: 1em;
   line-height: 1.4;
+  position: relative;
+  min-height: 100%;
+  
 }
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -241,6 +244,9 @@ body {
   font-family: Arial;
   font-size: 14px;
   line-height: 18px;
+  min-height: 800px;
+  background: #2980b9;
+  color: #fff;
 }
 a:hover,
 a:focus {
@@ -269,3 +275,11 @@ img {
    HEADER SECTION
    ========================================================================== */
 
+.header-area{ background: #3498db; }
+.link-section{ margin-top: 15%; margin-bottom: 20px; }
+.link-section a {
+   color: #fff;
+   text-decoration: underline;
+   font-family: arial;
+}
+.logo-area h2 a{ color: #fff; }

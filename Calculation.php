@@ -4,6 +4,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lg-offset-4 col-md-offset-4">
                     <div class="login-area">
+                        <div class="output"></div>
                         <form action="core/doCalculation.php" method="post">
                             <div class="form-group">
                                 <select name="service" id="service" class="form-control">
@@ -24,7 +25,7 @@
                                 <input type="text" name="total" id="total" placeholder="Total Amount" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="submit" value="Add Services" class="btn btn-primary">
+                                <input type="submit" id="calsubmit" value="Add Services" class="btn btn-primary">
                             </div>
                         </form>
                     </div>
