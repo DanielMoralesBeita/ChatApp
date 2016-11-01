@@ -1,6 +1,8 @@
 (function($){
-	jQuery(document).ready(function(){
-		jQuery('#reg').click(function(){
+	jQuery(document).ready(function()
+	{
+		jQuery('#reg').click(function()
+		{
 			$.ajax({
 				'url'	: 'registration.php',
 				'type'	: 'post',
@@ -13,7 +15,8 @@
 		});
 
 		// View Login Form
-		jQuery('#log').click(function(){
+		jQuery('#log').click(function()
+		{
 			$.ajax({
 				'url'	: 'login.php',
 				'type'	: 'post',
@@ -23,12 +26,17 @@
 				}
 			});
 			return false;
-		});
+		});	
 
+	});
+
+	jQuery(document).ready(function()
+	{
 		// Insert User Data by Ajax
-		jQuery('#submitReg').click(function(){
+		jQuery('.submitReg').click(function()
+		{
+			alert("hello");
 			return false;
 		});
-
 	});
 }(jQuery));

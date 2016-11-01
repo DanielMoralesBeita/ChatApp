@@ -11,10 +11,9 @@
                 <input type="password" name="password" id="password" placeholder="Password" class="form-control">
             </div>
             <div class="form-group">
-                <input type="submit" value="Registration" id="submitReg" class="btn btn-primary">
             </div>
         </form>
-        <a href="login.php">Login</a>
+        <a href="#" class="submitReg btn btn-primary">Registration</a>  
 
     </div>
 </div>

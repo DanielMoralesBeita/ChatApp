@@ -13,16 +13,15 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/uikit.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/datepicker.css">
+        <!-- <link rel="stylesheet" href="css/datepicker.css"> -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Elegant icon font -->
         <link rel="stylesheet" href="css/line-icons.min.css">
         <link rel="stylesheet" href="css/slicknav.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
